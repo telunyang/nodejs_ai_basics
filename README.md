@@ -21,8 +21,8 @@ npm i --save
 - [canvas](https://www.npmjs.com/package/canvas)
 
 ## 大綱
-1. AI 基礎概論與演進
-2. AI 應用概論
+- AI 基礎概論與演進
+- AI 應用概論
   - 電腦視覺
     - 圖片特徵擷取與相似度計算
     - 物件偵測
