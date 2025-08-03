@@ -15,11 +15,6 @@ npm i @huggingface/transformers @google/genai canvas wavefile @lancedb/lancedb -
 npm i --save
 ```
 
-## 套件列表
-- [@huggingface/transformers](https://www.npmjs.com/package/@huggingface/transformers)
-- [@google/genai](https://www.npmjs.com/package/@google/genai)
-- [canvas](https://www.npmjs.com/package/canvas)
-
 ## 大綱
 - AI 基礎概論與演進
 - AI 應用概論
@@ -43,4 +38,7 @@ npm i --save
     - 向量檢索 (使用文字描述)
     - 向量檢索 (使用音訊檔案)
   - 智慧文件處理
-  - 生成式 AI
+    - 圖片內容檢視
+    - 語音內容檢視
+  - 生成式 AI (使用 Gemini API)
+    - 文字生成
