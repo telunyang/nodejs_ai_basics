@@ -3,7 +3,7 @@
     "@google/genai": "^1.12.0",
     "@huggingface/transformers": "^3.7.1",
     "@lancedb/lancedb": "^0.21.2",
-    "apache-arrow": "^21.0.0",
+    "apache-arrow": "^18.0.1",
     "canvas": "^3.1.2",
     "wav": "^1.0.2",
     "wavefile": "^11.0.0"

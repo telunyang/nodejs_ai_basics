@@ -8,10 +8,6 @@
 
 ## 套件安裝
 ```bash
-# 指定安裝
-npm i @huggingface/transformers @google/genai canvas wavefile @lancedb/lancedb --save
-
-# 或是批次安裝
 npm i --save
 ```
 
