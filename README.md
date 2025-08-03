@@ -9,7 +9,7 @@
 ## 套件安裝
 ```bash
 # 指定安裝
-npm i @huggingface/transformers @google/genai canvas --save
+npm i @huggingface/transformers @google/genai canvas wavefile @lancedb/lancedb --save
 
 # 或是批次安裝
 npm i --save
@@ -34,9 +34,13 @@ npm i --save
     - 文字生成
     - 翻譯
   - 語音處理
+    - 音訊特徵擷取與相似度計算
     - 語音轉文字
-    - 文字轉聲音
+    - 文字轉音樂
     - 文字轉語音
   - 知識挖掘
-  - 智慧文件
+    - 建立向量資料庫
+    - 向量檢索 (使用文字描述)
+    - 向量檢索 (使用音訊檔案)
+  - 智慧文件處理
   - 生成式 AI

@@ -13,7 +13,7 @@ const model_id = 'Xenova/bge-m3';
 // 初始化斷詞器
 const tokenizer = await AutoTokenizer.from_pretrained(model_id);
 
-// 建立特徵擷取管道
+// 建立文字特徵擷取管道
 const pipe = await pipeline('feature-extraction', model_id, { dtype: 'auto' });
 
 // 定義要處理的文字
