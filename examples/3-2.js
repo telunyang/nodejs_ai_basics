@@ -2,7 +2,9 @@
  * 語音轉文字
  * 
  * 參考模型: https://huggingface.co/Xenova/whisper-medium
+ * 
  * 語音測試網址: https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=zh-TW&q=你的自訂文字
+ * 
  * 範例: 如果說再見...是妳唯一的消息...我彷彿可以預見我自己...越往遠處飛去...妳越在我心裡...而我卻是妳不要的回憶
  */
 

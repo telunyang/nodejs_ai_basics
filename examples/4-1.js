@@ -30,9 +30,12 @@ import {
 // 建立文字特徵擷取管道
 const pipe = await pipeline('feature-extraction', "Xenova/bge-m3", { dtype: 'auto' });
 
+// 模型 ID
+const model_id = "Xenova/clap-htsat-unfused";
+
 // 初始化音訊特徵擷取模型
-const audio_processor = await AutoProcessor.from_pretrained("Xenova/clap-htsat-unfused");
-const audio_model = await ClapAudioModelWithProjection.from_pretrained("Xenova/clap-htsat-unfused", {
+const audio_processor = await AutoProcessor.from_pretrained(model_id);
+const audio_model = await ClapAudioModelWithProjection.from_pretrained(model_id, {
     dtype: 'auto', 
     device: 'cpu'
 });
@@ -156,7 +159,6 @@ for (let i = 0; i < arr_data.length; i++) {
 
 // 檢視變數內容
 console.log(arr_data[0]);
-console.table(arr_data[0]);
 
 // 建立向量資料庫
 const db = await lancedb.connect("./db");
