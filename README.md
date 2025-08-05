@@ -62,8 +62,9 @@ npm i --save
 - 整合一到多個 AI 應用範例，成為專案的主要或次要功能。
 
 ## 補充 transformers.js
-- 如果你有學過 `react`，可以參考這個 [連結](https://github.com/huggingface/transformers.js-examples)，裡面有一些使用 `transformers.js` + `react` 的範例程式碼。
-- 如果你覺得有些 `hugggingface` 上的模型很有趣，但沒有 `onnx` 可以用，可以考慮使用 [Export a model to ONNX with optimum.exporters.onnx](https://huggingface.co/docs/transformers.js/custom_usage) 來將常見模型轉換成 `onnx` 格式（也可能讀取特定資料夾裡的模型 [連結](https://huggingface.co/docs/transformers.js/custom_usage)），但是你要學習如何使用 `python` 指令，並且安裝 [optimum](https://pypi.org/project/optimum/) 套件，當然～你可以請 ChatGPT 教你如何解決前述的問題。
+- 學過 `react`，可以參考這個 [連結](https://github.com/huggingface/transformers.js-examples)，裡面有一些使用 `transformers.js` + `react` 的範例程式碼。
+- 有些範例教學也值得一看 [Transformers.js - State-of-the-art Machine Learning for the Web](https://huggingface.co/docs/transformers.js/index) --> [Building a Vanilla JavaScript Application](https://huggingface.co/docs/transformers.js/tutorials/vanilla-js)。
+- 覺得有些 `hugggingface` 上的模型很有趣，但沒有 `onnx` 可以用，可以考慮使用 [Export a model to ONNX with optimum.exporters.onnx](https://huggingface.co/docs/transformers.js/custom_usage) 來將常見模型轉換成 `onnx` 格式（也可能讀取特定資料夾裡的模型 [連結](https://huggingface.co/docs/transformers.js/custom_usage)），但是你要學習如何使用 `python` 指令，並且安裝 [optimum](https://pypi.org/project/optimum/) 套件，當然～你可以請 ChatGPT 教你如何解決前述的問題。
 
 ## 作業說明
 - 僅限授課學員。
@@ -87,8 +88,8 @@ npm i --save
 - 如果有向量檢索的機制，可以建立相似度門檻（例如 0.8 或 0.9，依你的經驗而定），當相似度低於這個門檻時，可以回覆「抱歉，找不到類似的問題」。
 - 課程結束後，兩個禮拜內繳交作業（可現場討論），不用給我程式碼，只要拍一段網頁操作的影片，展示你的 AI 應用程式的功能，不限制時間長度，不一定要口頭說明，可以將用到哪些功能寫在網頁上，例如在本地端、雲端用到的 AI 工具或模型有哪些，他們做了些什麼等等：
   - 70 分: 1 個 AI 應用功能。
-  - 80 分: 2 個 AI 應用功能。
-  - 90 分: 3 個 AI 應用功能。
+  - 80 分: 2 個 AI 應用功能，可以單獨展示，或是串接起來，成為一個整合應用功能。
+  - 90 分: 3 個 AI 應用功能，可以單獨展示，或是串接起來，成為一個整合應用功能。
   - 100 分: 4 個（含以上）AI 應用功能，而且功能有整合性，同時包含一些團隊或個人的創意。
     - 例如：
       - 心情點播機
