@@ -11,6 +11,16 @@
 npm i --save
 ```
 
+## 提問
+- 通則
+  - 「結業前」可提問、討論，要把多餘時間和資源，留給當前上課的學員。
+- 寫信
+	- E-mail: `darren@darreninfo.cc`
+	- 信件標題寫上你的**班別和姓名**，或是在哪裡參與我的課程，例如 `[資展 <班別和代號> / 臺大計中 / 聯成]` 你的主旨 ○○○。
+	- 提問的內容要與本專案有關，**其它課程的部分，去請益原本授課的老師**。
+	- **不要把程式碼寄給我**，可能沒時間看，討論儘量以解決問題的方向為主。
+	- 不符合以上幾點，將**直接刪除**，敬請見諒。
+
 ## 範例程式碼
 - 上課的範例程式碼都放在 `examples` 資料夾裡面，可以用來參考。
 - 我們將上課資料夾 `nodejs_ai_basics` 當作根目錄。每次都會讓學員們在 `nodejs_ai_basics` 資料夾裡，手動新增一個 `.js` 程式檔案，例如 `1-1.js`，不會直接用到 `examples` 資料夾裡的程式碼。
@@ -56,6 +66,8 @@ npm i --save
 - 如果你覺得有些 `hugggingface` 上的模型很有趣，但沒有 `onnx` 可以用，可以考慮使用 [Export a model to ONNX with optimum.exporters.onnx](https://huggingface.co/docs/transformers.js/custom_usage) 來將常見模型轉換成 `onnx` 格式（也可能讀取特定資料夾裡的模型 [連結](https://huggingface.co/docs/transformers.js/custom_usage)），但是你要學習如何使用 `python` 指令，並且安裝 [optimum](https://pypi.org/project/optimum/) 套件，當然～你可以請 ChatGPT 教你如何解決前述的問題。
 
 ## 作業說明
+- 僅限授課學員。
+- 同學之間可以互相討論，但千萬不要抄襲。
 - 依興趣選擇至少 1 個 AI 應用，開發一個 Node.js 的 Web 應用程式，例如過去的學員曾經開發：
   - 文字
     - 取得圖書館的問答集，之後將資料轉換成向量資料庫，並使用向量檢索技術，實現問答系統。
