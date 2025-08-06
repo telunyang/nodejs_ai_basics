@@ -13,7 +13,7 @@ npm i --save
 
 ## 上課使用到的模型 (optional)
 - [Google Drive](https://drive.google.com/file/d/16MFPzhcT_JJQa-RwEMOdZixBE4gh8hbm/view?usp=sharing)
-  - 下載 `@huggingface.zip` 之後，解壓縮到 `nodejs_ai_basics` 當中的 `node_modules` 資料夾裡面。
+  - 下載 `@huggingface.zip` 之後，解壓縮到 `nodejs_ai_basics` 當中的 `node_modules` 資料夾裡面，有同樣資料夾名稱沒關係，直接覆蓋過去就行了。
 
 ## 提問
 - 通則
