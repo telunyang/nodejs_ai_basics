@@ -11,6 +11,10 @@
 npm i --save
 ```
 
+## 上課使用到的模型 (optional)
+- [Google Drive](https://drive.google.com/file/d/16MFPzhcT_JJQa-RwEMOdZixBE4gh8hbm/view?usp=sharing)
+  - 下載 `@huggingface.zip` 之後，解壓縮到 `nodejs_ai_basics` 當中的 `node_modules` 資料夾裡面。
+
 ## 提問
 - 通則
   - 「結業前」可提問、討論，要把多餘時間和資源，留給當前上課的學員。
@@ -50,7 +54,7 @@ npm i --save
   - 智慧文件處理
     - 圖片內容檢視
     - 語音內容檢視
-- 生成式 AI (Optional)
+- 生成式 AI (optional)
   - 文字生成 (一次性回應、串流回應與多輪對話)
   - 圖片生成
   - 語音生成
@@ -64,7 +68,11 @@ npm i --save
 ## 補充 transformers.js
 - 學過 `react`，可以參考這個 [連結](https://github.com/huggingface/transformers.js-examples)，裡面有一些使用 `transformers.js` + `react` 的範例程式碼。
 - 有些範例教學也值得一看 [Transformers.js - State-of-the-art Machine Learning for the Web](https://huggingface.co/docs/transformers.js/index) --> [Building a Vanilla JavaScript Application](https://huggingface.co/docs/transformers.js/tutorials/vanilla-js)。
-- 覺得有些 `hugggingface` 上的模型很有趣，但沒有 `onnx` 可以用，可以考慮使用 [Export a model to ONNX with optimum.exporters.onnx](https://huggingface.co/docs/transformers.js/custom_usage) 來將常見模型轉換成 `onnx` 格式（也可能讀取特定資料夾裡的模型 [連結](https://huggingface.co/docs/transformers.js/custom_usage)），但是你要學習如何使用 `python` 指令，並且安裝 [optimum](https://pypi.org/project/optimum/) 套件，當然～你可以請 ChatGPT 教你如何解決前述的問題。
+
+
+## 將 Hugging Face 模型轉換成 ONNX
+覺得有些 `hugggingface` 上的模型很有趣，但沒有 `onnx` 可以用，可以考慮使用 [Export a model to ONNX with optimum.exporters.onnx](https://huggingface.co/docs/transformers.js/custom_usage) 來將常見模型轉換成 `onnx` 格式（也可能讀取特定資料夾裡的模型 [連結](https://huggingface.co/docs/transformers.js/custom_usage)），但是你要學習如何使用 `python` 指令，並且安裝 [optimum](https://pypi.org/project/optimum/) 套件，當然～你可以請 ChatGPT 教你如何解決前述的問題。
+
 
 ## 作業說明
 - 僅限授課學員。
